@@ -17,11 +17,11 @@ contract Staking is ReentrancyGuard, Ownable {
     uint256 public constant periodLength = 10 days;
     uint256 public constant lockLength = 20 days;
 
-    address rewardToken = 0xaF441a4825Bd8D25ee1BF5CfDFDBb4738404F83f;
+    address rewardToken = 0xABE326Ec882388da5eafb6BfBAD95872640E2484;
     address WETH = 0x20b28B1e4665FFf290650586ad76E977EAb90c5D;
-    address USDT = 0x7d397eAB427f2630A7C0D621fB4080DfD39b51E6;
+    address USDT = 0x0c4A4B034843D9b867cBe7B324Cfc2831E2D7Ab9;
     address ETH = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
-    address USDC = 0x0D986767B5Bee2EE40fD76c501e8277683f1611F;
+    address USDC = 0x5f264cE5FD3708Af4DfBafB6234BD307801Fa550;
 
     ISobajaswapV1Router01 public ROUTER;
 

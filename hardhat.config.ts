@@ -3,6 +3,7 @@ import "@matterlabs/hardhat-zksync-deploy";
 import "@matterlabs/hardhat-zksync-solc";
 import "@matterlabs/hardhat-zksync-verify";
 import "@nomiclabs/hardhat-ethers";
+import "@matterlabs/hardhat-zksync-node";
 
 
 
